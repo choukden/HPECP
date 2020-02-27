@@ -1,2 +1,2 @@
 # HPECP
-HPE Container Platform
+HPE Container Platform - getting started with the REST API series.

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: model-student75
+  labels:
+    kubedirector.hpe.com/cmType: "model"
+data:
+  name: model-student75
+  description: "student75 model"
+  model-version: "1"
+  path: /bd-fs-mnt/TenantShare/repo/models/NYCTaxi/student75/XGB.pickle.dat
+  scoring-path: /bd-fs-mnt/TenantShare/repo/code/NYCTaxi/student75/XGB_Scoring.py
